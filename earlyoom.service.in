@@ -27,6 +27,7 @@ InaccessiblePaths=-/usr/local/
 TemporaryFileSystem=/bin
 TemporaryFileSystem=/usr/bin
 BindReadOnlyPaths=:TARGET:/earlyoom
+BindReadOnlyPaths=/usr/bin/dbus-send
 TemporaryFileSystem=/etc
 BindReadOnlyPaths=-/etc/ld.so.preload
 BindReadOnlyPaths=-/etc/ld.so.cache
